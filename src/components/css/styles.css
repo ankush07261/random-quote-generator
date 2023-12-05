@@ -2,12 +2,13 @@
     width: 80%;
     margin:10% auto;
     padding:2rem;
-    background-color: rgb(249, 227, 188);
+    background-color: red;
     height: 30vh;
     border-radius: 10px;
     box-shadow: 1rem 1rem 1rem grey;
     border: 2px solid black;
 }
+/* rgb(249, 227, 188) */
 .quote{
     width: 100%;
     margin: auto;
