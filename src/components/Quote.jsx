@@ -8,10 +8,7 @@ function Quote() {
     useEffect(()=>{
         fetch("https://type.fit/api/quotes")
         .then(res=>res.json())
-        
         .then((respone)=>setData(respone));
-        // .catch((err)=>console.error(err))
-       
     },[setData]);
      
     console.log(data);
@@ -22,6 +19,7 @@ function Quote() {
         setQuote(eachq);
         return eachq;    
     }
+    
   return (
       <div className='container'>
           <h2>Quote :</h2>
